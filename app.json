@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "Nowly",
+    "slug": "nowly",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash-nowly.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.magun.nowly"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon-nowly.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.magun.nowly"
+    },
+    "web": {
+      "favicon": "./assets/favicon-nowly.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "727574f9-73c7-41d3-a84d-cf5f58a2b35c"
+      }
+    }
+  }
+}
